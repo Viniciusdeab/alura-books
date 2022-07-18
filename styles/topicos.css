@@ -29,3 +29,34 @@
     font-weight: 700;
     text-align: center;
 }
+
+
+@media screen and (min-width: 1024px){
+    .topicos__titulo{
+        font-size: 24px;
+    }
+    .topicos__link{
+        font-size: 24px;
+    }
+
+    .topicos__item{
+        padding: 1.5em 1.2em;
+    }
+
+    .topicos__lista{
+        padding: 0 8em;
+    }
+
+    .topicos__item--7{
+        order: -1;
+    }
+
+    .topicos__item--1{
+        order: -1;
+    }
+
+    .topicos__item--6{
+        order: 1;
+    }
+
+}
